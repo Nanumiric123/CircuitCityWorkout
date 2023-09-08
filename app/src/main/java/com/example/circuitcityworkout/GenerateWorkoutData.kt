@@ -43,7 +43,7 @@ class GenerateWorkoutData {
 
     fun generateDay4Workout():MutableList<workoutData>{
         var tempList:MutableList<workoutData> = mutableListOf()
-        tempList.add(workoutData(workout = "Barbell/Dumbbell Bench Press", sets = "4 x 10", dbImage = R.drawable.benchpress))
+        tempList.add(workoutData(workout = "Barbell/Dumbbell Bench Press", sets = "4 x 10", dbImage = R.drawable.barbellbenchpress))
         tempList.add(workoutData(workout = "Dumbbell Shoulder Press", sets = "4 x 10", dbImage = R.drawable.dumbbellshoulderpress))
         tempList.add(workoutData(workout = "Machine PullDown", sets = "4 x 10", dbImage = R.drawable.frontpulldown))
         tempList.add(workoutData(workout = "Chest fly Cable/Machine/Dumbbell", sets = "4 x 10", dbImage = R.drawable.pecfly))
