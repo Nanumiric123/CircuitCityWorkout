@@ -17,7 +17,7 @@ class Instructions : AppCompatActivity() {
         // Load the GIF using Glide and set it to loop
         Glide.with(this)
             .asGif()
-            .load(intent.getIntExtra("ImageID",R.drawable.benchpress))
+            .load(intent.getIntExtra("ImageID",R.drawable.barbellbenchpress))
             .into(gifImageView)
     }
 }
